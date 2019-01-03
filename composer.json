@@ -1,0 +1,39 @@
+{
+  "name": "professionalweb/integration-hub-buffer",
+  "description": "Event buffer for integration hub",
+  "keywords": [
+    "laravel",
+    "proxy",
+    "integration",
+    "hub",
+    "buffer"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.1.3",
+    "illuminate/support": "5.*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "classmap": [
+    ],
+    "psr-4": {
+      "professionalweb\\IntegrationHub\\IntegrationHubBuffer\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "professionalweb\\IntegrationHub\\IntegrationHubBuffer\\Providers\\IntegrationHubBufferProvider"
+      ]
+    }
+  }
+}
